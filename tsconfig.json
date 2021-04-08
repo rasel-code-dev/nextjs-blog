@@ -1,0 +1,95 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    //    "module": "ESNext",
+    "resolveJsonModule": true,
+    //    "noEmit": true,
+    "lib": [
+      "DOM",
+      "DOM.Iterable",
+      "ESNext",
+      "dom",
+      "es6",
+      "ES2015.Promise",
+      "ES5",
+      "esnext"
+    ],
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "noImplicitAny": false,
+    "noEmitOnError": true,
+    "module": "commonjs",
+    "target": "ESNext",
+    "jsx": "preserve",
+    //    "experimentalDecorators": true,
+    "noEmit": false,
+    "strict": true,
+    "noImplicitReturns": false,
+    "noUnusedParameters": false,
+    "noUnusedLocals": false,
+    "esModuleInterop": true,
+    //    "allowSyntheticDefaultImports": false,
+    "isolatedModules": true,
+    "moduleResolution": "node",
+    /* Advanced Options */
+    "skipLibCheck": true /* Skip type checking of declaration files. */,
+    "allowJs": true,
+    "baseUrl": ".",
+    "paths": {
+      "@app": [
+        "."
+      ],
+      "components": [
+        "components/*"
+      ],
+      "Common": [
+        "Common/*"
+      ],
+      "Interfaces": [
+        "Interfaces/*"
+      ],
+      "pages": [
+        "pages/*"
+      ],
+      "scss": [
+        "scss/*"
+      ],
+      "apis": [
+        "apis/*"
+      ],
+      "common": [
+        "Common/*"
+      ],
+      "asserts": [
+        "asserts/*"
+      ],
+      "utils": [
+        "utils/*"
+      ],
+      "fonts": [
+        "asserts/fonts/*"
+      ],
+      "styles": [
+        "styles/*"
+      ],
+      "store": [
+        "store/*"
+      ],
+      "reducers": [
+        "store/reducers/*"
+      ],
+      "actions": [
+        "store/actions/*"
+      ]
+    }
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
