@@ -88,7 +88,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
-  ],
+, "components/Link.jsx"  ],
   "exclude": [
     "node_modules"
   ]
