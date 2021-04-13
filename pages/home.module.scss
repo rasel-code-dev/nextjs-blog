@@ -1,0 +1,35 @@
+
+
+.wrapper{
+
+  
+
+  .item{
+    display: flex;
+    flex-direction: column;
+
+    background-color: rgb(241, 241, 241);
+    margin: 20px 0px;
+
+    &:nth-child(even){
+      img{
+        transform: translateX(200px);
+      }
+
+    }
+
+    &:nth-child(odd){
+      img{
+        transform: translateX(calc(100vw - 210px));
+      }
+
+    }
+    img{
+      opacity: 0;
+    }
+
+  }
+  
+ 
+  
+}
