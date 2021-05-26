@@ -51,7 +51,7 @@ ProductPage.getInitialProps=(ctx)=>{
   return axiosInstance.get("/api/products").then(response=>{ 
     console.log("db req finished");
     return {
-      props: {products: response.data.products}
+      products: response.data.products
     }
   })
   
