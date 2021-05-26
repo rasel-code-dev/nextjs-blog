@@ -7,11 +7,11 @@ import axios from "axios";
 
 function HomePage (props){
   
-  // React.useEffect(()=>{
-  //   axiosInstance.get("/api/products").then(response=>{
-  //     console.log("client site db req finished", response);
-  //   })
-  // })
+  React.useEffect(()=>{
+    axiosInstance.get("/api/products").then(response=>{
+      console.log("client sit.replace.........d", response);
+    })
+  })
   
   return (
     <div>
@@ -45,6 +45,10 @@ HomePage.getInitialProps=()=>{
     console.log(response);
     return {
       products: response.data.products
+    }
+  }).carch(ecc=>{
+    return {
+      products: []
     }
   })
 }
