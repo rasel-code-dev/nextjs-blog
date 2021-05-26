@@ -7,11 +7,11 @@ import {getFullLink} from "../utils/getFullLink";
 function HomePage (props){
   
   React.useEffect(()=>{
-    axiosInstance.get("/api/products").then(response=>{
+    const origin = typeof window !== 'undefined' && window.location.origin ? window.location.origin : '';
+    axiosInstance.get(origin + "/api/products").then(response=>{
       console.log("client site db req finished", response);
     })
     const hostname = typeof window !== 'undefined' && window.location.hostname ? window.location.hostname : '';
-    const origin = typeof window !== 'undefined' && window.location.origin ? window.location.origin : '';
     console.log(hostname, origin)
   })
   
