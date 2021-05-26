@@ -46,14 +46,14 @@ const ProductPage = (props) => {
 
 
 // preload Data from server
-ProductPage.getInitialProps=(ctx)=>{
-  return axiosInstance.get("/api/products").then(response=>{
-    console.log("db req finished");
-    return {
-      products: response.data.products
-    }
-  })
+// ProductPage.getInitialProps=(ctx)=>{
+//   return axiosInstance.get("/api/products").then(response=>{
+//     console.log("db req finished");
+//     return {
+//       products: response.data.products
+//     }
+//   })
 
-}
+// }
 
 export default ProductPage;

@@ -2,18 +2,16 @@
 import axiosInstance from "../api/axiosInstance"
 import React from "react";
 import {getFullLink} from "../utils/getFullLink";
+import axios from "axios";
 
 
 function HomePage (props){
   
-  React.useEffect(()=>{
-    const origin = typeof window !== 'undefined' && window.location.origin ? window.location.origin : '';
-    axiosInstance.get(origin + "/api/products").then(response=>{
-      console.log("client site db req finished", response);
-    })
-    const hostname = typeof window !== 'undefined' && window.location.hostname ? window.location.hostname : '';
-    console.log(hostname, origin)
-  })
+  // React.useEffect(()=>{
+  //   axiosInstance.get("/api/products").then(response=>{
+  //     console.log("client site db req finished", response);
+  //   })
+  // })
   
   return (
     <div>
@@ -43,7 +41,8 @@ function HomePage (props){
 
 HomePage.getInitialProps=()=>{
   return axiosInstance.get("/api/products").then(response=>{
-    console.log("db req finished");
+    console.log("db req finished"); 
+    console.log(response);
     return {
       products: response.data.products
     }

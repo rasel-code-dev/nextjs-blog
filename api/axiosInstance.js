@@ -4,7 +4,6 @@ const axios = require("axios");
 const origin = typeof window !== 'undefined' && window.location.origin ? window.location.origin : '';
 export const backend = origin
 
-
 module.exports = axios.create({
   baseURL: backend
 })
