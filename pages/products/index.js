@@ -44,6 +44,7 @@ const ProductPage = (props) => {
   );
 };
 
+
 // // preload Data from server
 // ProductPage.getInitialProps=(ctx)=>{
 //   return axiosInstance.get("/api/products").then(response=>{
