@@ -6,7 +6,11 @@ import {getFullLink} from "../utils/getFullLink";
 
 function HomePage (props){
   
-  
+  React.useEffect(()=>{
+    axiosInstance.get("/api/products").then(response=>{
+      console.log("client site db req finished", response);
+    })
+  })
   
   return (
     <div>
