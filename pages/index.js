@@ -1,7 +1,4 @@
-import Head from 'next/head'
-import Layout, { siteTitle } from 'components/layout'
-import utilStyles from 'styles/utils.module.css'
-import { getSortedPostsData } from '../lib/posts'
+
 import axiosInstance from "../api/axiosInstance"
 import React from "react";
 import {getFullLink} from "../utils/getFullLink";
