@@ -1,0 +1,30 @@
+{
+  "props": {
+    "pageProps": {
+      "products": [
+        {
+          "name": "T-Shart",
+          "price": 232,
+          "qty": 12
+        },
+        {
+          "name": "Monitor",
+          "price": 232,
+          "qty": 12
+        },
+        {
+          "name": "Mobile",
+          "price": 1232,
+          "qty": 12
+        }
+      ]
+    },
+    "__N_SSG": true
+  },
+  "page": "/products",
+  "query": {},
+  "buildId": "development",
+  "nextExport": false,
+  "isFallback": false,
+  "gsp": true
+}

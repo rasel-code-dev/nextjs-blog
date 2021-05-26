@@ -1,0 +1,15 @@
+.header{
+  background: #e7e7e7;
+  position: fixed;
+  width: 100%;
+  .navbar{
+    max-width: 1400px;
+    margin: auto;
+    display: flex;
+    .nav_item{
+      list-style: none;
+      padding: 10px;
+      font-family: Roboto, serif;
+    }
+  }
+}
