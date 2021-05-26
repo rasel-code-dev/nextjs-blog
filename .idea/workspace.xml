@@ -2,43 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="daf7256f-1ebb-47b2-9f91-e01e79446825" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/nextjs-blog.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Untitled-1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/axiosInstance.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Navigation/Navigation.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Navigation/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/date.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/layout.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/layout.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/posts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/next-env.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/_app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/admin/[Dashboard]/add-product/Add-Product.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/admin/[Dashboard]/add-product/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/admin/[Dashboard]/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/api/hello.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/api/products.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/app.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/posts/[id].js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/products/[productId].js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/products/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/products/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/posts/pre-rendering.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/posts/ssg-ssr.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/profile.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/global.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/posts.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/utils.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/getFullLink.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +33,7 @@
       <option name="presentableId" value="Default" />
       <updated>1621963506681</updated>
       <workItem from="1621963508669" duration="641000" />
-      <workItem from="1622000501266" duration="213000" />
+      <workItem from="1622000501266" duration="509000" />
     </task>
     <servers />
   </component>
